@@ -59,6 +59,7 @@ This separation helps keep the domain/application logic independent from infrast
 * 🧩 Hexagonal Architecture
 * 📦 Microservice-oriented design
 * ☕ Java 21
-
+* 🌱 Spring Boot
+* 🏗️ Gradle build system
 
 
