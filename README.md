@@ -55,5 +55,5 @@ This separation helps keep the domain/application logic independent from infrast
 * 🛡️ Spring Security integration
 * 🔑 Token generation and validation
 * 🌐 OAuth2 Resource Server support
-
+* 🔗 Communication with other services using OpenFeign
 
