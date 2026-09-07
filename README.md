@@ -142,6 +142,21 @@ This allows authentication to be centralized while authorization/security valida
 
 ## 🧱 Project Structure
 
+```text
+src/
+└── main/
+    ├── java/
+    │   └── com/
+    │       └── kvales/
+    │           └── auth/
+    │               ├── adapter/
+    │               ├── application/
+    │               ├── config/
+    │               └── AuthMain.java
+    │
+    └── resources/
+        └── application.properties
+```
 
 
 
