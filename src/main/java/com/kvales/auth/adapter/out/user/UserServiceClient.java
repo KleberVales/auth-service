@@ -17,6 +17,7 @@ public interface UserServiceClient {
 
     record UserResponse(
             Long id,
+            String name,
             String email,
             String passwordHash
     ) {}

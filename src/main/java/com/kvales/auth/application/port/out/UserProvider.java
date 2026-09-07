@@ -6,6 +6,7 @@ public interface UserProvider {
 
     record UserData(
             Long id,
+            String name,
             String email,
             String passwordHash
     ) {}

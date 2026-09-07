@@ -19,6 +19,7 @@ public class UserServiceClientAdapter implements UserProvider {
 
         return new UserData(
                 response.id(),
+                response.name(),
                 response.email(),
                 response.passwordHash()
         );
