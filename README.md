@@ -51,6 +51,8 @@ This separation helps keep the domain/application logic independent from infrast
 
 ## 🚀 Features
 
+* 🔐 JWT-based authentication
+
 
 
 
