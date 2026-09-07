@@ -75,6 +75,6 @@ This separation helps keep the domain/application logic independent from infrast
 | Spring Cloud OpenFeign | Service-to-service communication     |
 | Gradle                 | Build and dependency management      |
 
-
+The project uses Spring Boot `3.2.4`, Java `21`, JJWT `0.12.6`, Spring Cloud `2023.0.5`, and OpenFeign.
 
 
