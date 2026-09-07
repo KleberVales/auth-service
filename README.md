@@ -250,6 +250,32 @@ The service uses **Spring Security** together with **JWT**.
 
 The main security components are:
 
+```text
+Client
+   │
+   │ Login
+   ▼
+Auth Service
+   │
+   │ Authenticate
+   ▼
+Spring Security
+   │
+   │ Generate
+   ▼
+JWT
+   │
+   │ Bearer Token
+   ▼
+Protected Microservice
+   │
+   │ Validate JWT
+   ▼
+Authorized Request
+```
+
+JWT functionality is implemented using the JJWT library, while Spring Security's OAuth2 Resource Server support is used for resource protection and token validation.
+
 
 
 
