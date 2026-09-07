@@ -83,4 +83,47 @@ The authentication service acts as the central component responsible for issuing
 
 A typical authentication flow is:
 
+```text
+  ┌──────────┐
+  │  Client  │
+  └────┬─────┘
+       │
+       │ Credentials
+       ▼
+┌─────────────────┐
+│   Auth Service  │
+│                 │
+│ Spring Security │
+└───────┬─────────┘
+        │
+        │ Validate credentials
+        ▼
+┌─────────────────┐
+│     User        │
+│   Repository    │
+└───────┬─────────┘
+        │
+        │ Valid
+        ▼
+┌─────────────────┐
+│   JWT Service   │
+│                 │
+│ Generate Token  │
+└───────┬─────────┘
+        │
+        │ JWT
+        ▼
+┌──────────────┐
+│    Client    │
+└──────┬───────┘
+       │
+       │ Authorization: Bearer <token>
+       ▼
+┌─────────────────────┐
+│ Other Microservices │
+│                     │
+│ Validate JWT        │
+└─────────────────────┘
+```
+
 
