@@ -222,6 +222,28 @@ Run using the Gradle Wrapper:
 gradlew.bat bootRun
 ```
 
+## 🔨 Build
+
+Build the project:
+
+```bash
+./gradlew build
+```
+
+Run tests:
+
+```bash
+./gradlew test
+```
+
+Create the application artifact:
+
+```bash
+./gradlew bootJar
+```
+
+The project is configured to use JUnit Platform for tests.
+
 
 
 
