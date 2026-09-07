@@ -210,6 +210,19 @@ cd auth-service
 
 Run using the Gradle Wrapper:
 
+### Linux / macOS
+
+```bash
+./gradlew bootRun
+```
+
+### Windows
+
+```bash
+gradlew.bat bootRun
+```
+
+
 
 
 
