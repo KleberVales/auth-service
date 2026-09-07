@@ -47,6 +47,8 @@ com.kvales.auth
 └── AuthMain.java
 ```
 
+This separation helps keep the domain/application logic independent from infrastructure concerns.
+
 
 
 
