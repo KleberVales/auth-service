@@ -65,4 +65,6 @@ This separation helps keep the domain/application logic independent from infrast
 ## 🛠️ Tech Stack
 
 | Technology             | Purpose                              |
+| ---------------------- | ------------------------------------ |
+| Java 21                | Programming language                 |
 
