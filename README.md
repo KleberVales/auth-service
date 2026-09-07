@@ -276,6 +276,45 @@ Authorized Request
 
 JWT functionality is implemented using the JJWT library, while Spring Security's OAuth2 Resource Server support is used for resource protection and token validation.
 
+## 🔗 Microservices Integration
+
+The Auth Service is designed to work as part of a larger microservices ecosystem.
+
+For example:
+
+```text
+                    ┌───────────────┐
+                    │    Client     │
+                    └───────┬───────┘
+                            │
+                            ▼
+                    ┌───────────────┐
+                    │  Auth Service │
+                    │               │
+                    │ JWT Provider  │
+                    └───────┬───────┘
+                            │
+                       JWT Token
+                            │
+             ┌──────────────┼──────────────┐
+             │              │              │
+             ▼              ▼              ▼
+      ┌────────────┐ ┌────────────┐ ┌────────────┐
+      │ Nutrition  │ │   User     │ │   Other    │
+      │  Service   │ │  Service   │ │ Services   │
+      └────────────┘ └────────────┘ └────────────┘
+```
+
+The client does not need to authenticate independently with every microservice.
+
+Instead:
+
+1. The client authenticates with the Auth Service.
+2. The Auth Service generates a JWT.
+3. The client sends the JWT with subsequent requests.
+4. Protected microservices validate the JWT.
+5. The request is accepted or rejected according to the security configuration.
+
 
 
 
