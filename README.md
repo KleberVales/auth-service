@@ -194,6 +194,22 @@ Expected:
 Java 21
 ```
 
+## ▶️ Running the Application
+
+Clone the repository:
+
+```bash
+git clone https://github.com/KleberVales/auth-service.git
+```
+
+Enter the project:
+
+```bash
+cd auth-service
+```
+
+Run using the Gradle Wrapper:
+
 
 
 
