@@ -140,4 +140,10 @@ The token can then be validated by protected microservices.
 
 This allows authentication to be centralized while authorization/security validation can be enforced at the boundaries of individual services.
 
+## 🧱 Project Structure
+
+
+
+
+
 
