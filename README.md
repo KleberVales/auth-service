@@ -164,6 +164,12 @@ Contains infrastructure-specific implementations and integrations.
 
 Examples include security implementations and external communication.
 
+### Application
+
+Contains application-level business logic and use cases.
+
+This layer communicates with infrastructure through ports rather than depending directly on concrete implementations.
+
 
 
 
