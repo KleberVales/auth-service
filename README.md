@@ -170,6 +170,10 @@ Contains application-level business logic and use cases.
 
 This layer communicates with infrastructure through ports rather than depending directly on concrete implementations.
 
+### Config
+
+Contains Spring and application configuration required to assemble the service.
+
 
 
 
