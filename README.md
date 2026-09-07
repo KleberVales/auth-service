@@ -71,4 +71,10 @@ This separation helps keep the domain/application logic independent from infrast
 | Spring Security        | Authentication and authorization     |
 | Spring Web             | REST API                             |
 | JWT                    | Token-based authentication           |
+| OAuth2 Resource Server | JWT validation / resource protection |
+| Spring Cloud OpenFeign | Service-to-service communication     |
+| Gradle                 | Build and dependency management      |
+
+
+
 
