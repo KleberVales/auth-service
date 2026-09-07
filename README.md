@@ -62,4 +62,5 @@ This separation helps keep the domain/application logic independent from infrast
 * 🌱 Spring Boot
 * 🏗️ Gradle build system
 
+## 🛠️ Tech Stack
 
