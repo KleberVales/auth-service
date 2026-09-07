@@ -188,6 +188,12 @@ Verify Java:
 java -version
 ```
 
+Expected:
+
+```text
+Java 21
+```
+
 
 
 
