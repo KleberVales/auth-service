@@ -126,4 +126,10 @@ A typical authentication flow is:
 └─────────────────────┘
 ```
 
+### Token propagation
+
+After successful authentication, the client receives a JWT.
+
+For subsequent requests, the client sends the token using:
+
 
