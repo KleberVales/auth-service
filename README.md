@@ -132,4 +132,8 @@ After successful authentication, the client receives a JWT.
 
 For subsequent requests, the client sends the token using:
 
+```http
+Authorization: Bearer <JWT>
+```
+
 
