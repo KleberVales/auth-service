@@ -58,7 +58,7 @@ This separation helps keep the domain/application logic independent from infrast
 * 🔗 Communication with other services using OpenFeign
 * 🧩 Hexagonal Architecture
 * 📦 Microservice-oriented design
-
+* ☕ Java 21
 
 
 
