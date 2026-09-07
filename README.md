@@ -174,6 +174,16 @@ This layer communicates with infrastructure through ports rather than depending 
 
 Contains Spring and application configuration required to assemble the service.
 
+## ⚙️ Requirements
+
+Before running the application, make sure you have:
+
+* Java 21+
+* Git
+* Gradle or use the included Gradle Wrapper
+
+Verify Java:
+
 
 
 
