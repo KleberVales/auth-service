@@ -158,6 +158,12 @@ src/
         └── application.properties
 ```
 
+### Adapter
+
+Contains infrastructure-specific implementations and integrations.
+
+Examples include security implementations and external communication.
+
 
 
 
