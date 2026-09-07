@@ -37,3 +37,5 @@ The project follows **Hexagonal Architecture (Ports and Adapters)** principles, 
       └──────────────────┘          └──────────────────┘
 ```
 
+The main package structure is organized into:
+
