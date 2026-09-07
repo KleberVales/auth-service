@@ -39,3 +39,15 @@ The project follows **Hexagonal Architecture (Ports and Adapters)** principles, 
 
 The main package structure is organized into:
 
+```text
+com.kvales.auth
+├── adapter
+├── application
+├── config
+└── AuthMain.java
+```
+
+
+
+
+
