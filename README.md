@@ -184,6 +184,10 @@ Before running the application, make sure you have:
 
 Verify Java:
 
+```bash
+java -version
+```
+
 
 
 
