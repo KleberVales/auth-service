@@ -244,6 +244,12 @@ Create the application artifact:
 
 The project is configured to use JUnit Platform for tests.
 
+## 🔒 Security Model
+
+The service uses **Spring Security** together with **JWT**.
+
+The main security components are:
+
 
 
 
