@@ -77,4 +77,10 @@ This separation helps keep the domain/application logic independent from infrast
 
 The project uses Spring Boot `3.2.4`, Java `21`, JJWT `0.12.6`, Spring Cloud `2023.0.5`, and OpenFeign.
 
+## 🔐 Authentication Flow
+
+The authentication service acts as the central component responsible for issuing authentication tokens.
+
+A typical authentication flow is:
+
 
