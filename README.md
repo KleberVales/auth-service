@@ -8,3 +8,32 @@ The service is responsible for authenticating users, generating JWT tokens, and 
 
 The project follows **Hexagonal Architecture (Ports and Adapters)** principles, separating business rules from infrastructure and framework-specific implementations.
 
+```text
+                    ┌──────────────────────┐
+                    │      Client / API    │
+                    └──────────┬───────────┘
+                               │
+                               ▼
+                    ┌──────────────────────┐
+                    │   Authentication     │
+                    │      Controller      │
+                    └──────────┬───────────┘
+                               │
+                               ▼
+                    ┌──────────────────────┐
+                    │    Application       │
+                    │       Layer          │
+                    │                      │
+                    │   Use Cases / Ports  │
+                    └──────────┬───────────┘
+                               │
+                ┌──────────────┴──────────────┐
+                │                             │
+                ▼                             ▼
+      ┌──────────────────┐          ┌──────────────────┐
+      │ Security Adapter │          │ Persistence /    │
+      │                  │          │ External Adapter │
+      │ JWT / Security   │          │                  │
+      └──────────────────┘          └──────────────────┘
+```
+
