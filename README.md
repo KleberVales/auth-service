@@ -54,6 +54,6 @@ This separation helps keep the domain/application logic independent from infrast
 * 🔐 JWT-based authentication
 * 🛡️ Spring Security integration
 * 🔑 Token generation and validation
-
+* 🌐 OAuth2 Resource Server support
 
 
