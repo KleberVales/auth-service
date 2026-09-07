@@ -136,4 +136,8 @@ For subsequent requests, the client sends the token using:
 Authorization: Bearer <JWT>
 ```
 
+The token can then be validated by protected microservices.
+
+This allows authentication to be centralized while authorization/security validation can be enforced at the boundaries of individual services.
+
 
