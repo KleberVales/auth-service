@@ -57,7 +57,7 @@ This separation helps keep the domain/application logic independent from infrast
 * 🌐 OAuth2 Resource Server support
 * 🔗 Communication with other services using OpenFeign
 * 🧩 Hexagonal Architecture
-
+* 📦 Microservice-oriented design
 
 
 
