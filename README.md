@@ -67,4 +67,8 @@ This separation helps keep the domain/application logic independent from infrast
 | Technology             | Purpose                              |
 | ---------------------- | ------------------------------------ |
 | Java 21                | Programming language                 |
+| Spring Boot 3.2.4      | Application framework                |
+| Spring Security        | Authentication and authorization     |
+| Spring Web             | REST API                             |
+| JWT                    | Token-based authentication           |
 
