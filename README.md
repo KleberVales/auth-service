@@ -315,6 +315,10 @@ Instead:
 4. Protected microservices validate the JWT.
 5. The request is accepted or rejected according to the security configuration.
 
+---
+
+Kleber 
+
 
 
 
