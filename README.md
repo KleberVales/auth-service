@@ -319,7 +319,7 @@ Instead:
 
 Kleber Vales
 
-Software Engineer
+Software Engineer & AI Agent
 
 
 
