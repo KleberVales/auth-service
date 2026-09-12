@@ -321,7 +321,7 @@ Kleber Vales
 
 Software Engineer & AI Agent
 
-Cloud
+Cloud | DevOps
 
 
 
